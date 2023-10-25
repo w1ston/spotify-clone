@@ -18,9 +18,9 @@ interface HeaderProps {
 }
 
 const Header: React.FC<HeaderProps> = ({
-                                           children,
-                                           className
-                                       }) => {
+    children,
+    className
+}) => {
     const authModal = useAuthModal();
     const router = useRouter();
 
